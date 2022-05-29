@@ -34,12 +34,12 @@ app.get('/', (req, res) => {
 });
 
 app.use("/", Route);
-// app.use("/admin", Admin);
-// app.use("/ambassador-program", AmbassadorProgram);
-// app.use("/post", Post);
-// app.use("/post-report", PostReport);
-// app.use("/s3", S3);
-// app.use("/store", LiquorStore);
+
+
+
+
+
+
 
 app.listen(port, () => {
     console.log(`Listening on port ${hostname}:${port}!`)
